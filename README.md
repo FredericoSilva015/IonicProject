@@ -6,7 +6,6 @@ Quick links for those interested:
 
 **Table of Contents**
 
-  - [About React-Ionic](#about-react-ionic)
   - [Installation for Meteor](#installation-for-meteor)
     - [Prerequisites](#prerequisites)
     - [Install, build and run](#install-build-and-run)
@@ -14,12 +13,6 @@ Quick links for those interested:
     - [Prerequisites](#prerequisites-1)
     - [Install, build and run](#install-build-and-run-1)
   - [Next Steps](#next-steps)
-
-
-  * Installation for Meteor.
-  * Installation with Webpack.
-
-
 
   ## Installation for Meteor ##
 
