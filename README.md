@@ -20,8 +20,6 @@ Quick links for those interested:
   * Installation with Webpack.
 
 
-  Let me know if you are looking to use the library in another way: mark (a) pors (dot) net.
-
 
   ## Installation for Meteor ##
 
@@ -54,9 +52,6 @@ Quick links for those interested:
       npm install
       cd app
       meteor run
-
-  Note that this installation relies on Meteor 1.3 (with npm package support). Installation for an older version of Meteor is also possible, but needs some more work. Let me know if you are interested in this (see my email above).
-
 
   ## Installation with Webpack ##
 
@@ -111,6 +106,6 @@ Quick links for those interested:
 
   ### Installation ###
 
-  Please install the top most instructions and use the indicated versions. Webpack and meteor will possibly break (using windows both broke for me). This happens because the current sass dependency is not up to date with weback/webpack-server and meteor (webpack  = version < 2.0.0 will break), to avoid issues running in the indicated versions above is recommended.
+  Please install using instructions and the indicated versions. Webpack and meteor will possibly break (using windows both broke for me with the most recent versions). This happens because the current sass dependency is not up to date with weback/webpack-server and meteor (webpack  = version < 2.0.0 will break), to avoid issues, running in the indicated versions above is recommended.
 
   I wish to remind that the credit of this app is not entirely mine, since this is an adaption of the original [IonicReact](http://reactionic.github.io/) Project
