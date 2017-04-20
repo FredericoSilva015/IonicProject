@@ -87,6 +87,7 @@ Quick links for those interested:
 
       cd reactionic-kitchensink
       npm install
+      npm install --save-dev webpack-dev-server@1.14.1
       webpack
       webpack-dev-server --content-base build
 
@@ -99,6 +100,14 @@ Quick links for those interested:
 
   ### Installation ###
 
-  Please install using instructions and the indicated versions. Webpack and meteor will possibly break (using windows both broke for me with the most recent versions). This happens because the current sass dependency is not up to date with weback/webpack-server and meteor (webpack  = version < 2.0.0 will break), to avoid issues, running in the indicated versions above is recommended.
+  Please install using instructions and the indicated versions. Webpack and meteor will possibly break (using windows both broke for me with the most recent versions). To avoid this issue with this i used the pointed version on this read me, for more info [Version error](https://github.com/angular/angular-cli/issues/2234).
+
+  Current file changes :
+  * **app** > **client** > **app.scss** : commented import, added =>
+  ``` sass
+  @import"node_modules/reactionic/dist/scss/styles/_reactionic.scss";
+  ```
+  * moved the folder fonts from **app** > **public** to **build**
+
 
   I wish to remind that the credit of this app is not entirely mine, since this is an adaption of the original [IonicReact](http://reactionic.github.io/) Project
