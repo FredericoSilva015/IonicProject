@@ -1,10 +1,8 @@
 $react-blue: #00d8ff;
 $bar-dark-text: $react-blue;
 $dark: #000000;
-$positive: $react-blue;
-
-//@import "{}/node_modules/reactionic/dist/scss/styles/reactionic.scss";
-@import "~reactionic/dist/scss/styles/_reactionic.scss";
+$positive: $react-blue; //@import "{}/node_modules/reactionic/dist/scss/styles/reactionic.scss";
+@import "node_modules/reactionic/dist/scss/styles/_reactionic.scss";
 
 .bar-dark .button.button-clear {
     color: $react-blue;
@@ -16,28 +14,32 @@ $positive: $react-blue;
 }
 
 .platform-ios.platform-cordova {
-  &:not(.fullscreen) {
-    .scroll-content.ios-top-margin {
-        top: $ios-statusbar-height;
+    &:not(.fullscreen) {
+        .scroll-content.ios-top-margin {
+            top: $ios-statusbar-height;
+        }
+
+        .bar-header:not(.bar-subheader) {
+            span > .title {
+                top: $ios-statusbar-height;
+            }
+        }
     }
-    .bar-header:not(.bar-subheader) {
-      span > .title {
-          top: $ios-statusbar-height;
-      }
-    }
-  }
 }
 
 .slide-demo {
     text-align: center;
     padding-top: 200px;
 }
+
 .slide-demo.dark {
     background-color: #444;
+
     h3 {
         color: $react-blue;
     }
 }
+
 .slide-demo.blue {
     background-color: $react-blue;
     color: #000;
