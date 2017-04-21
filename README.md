@@ -107,7 +107,7 @@ Quick links for those interested:
   ``` sass
   @import"node_modules/reactionic/dist/scss/styles/_reactionic.scss";
   ```
-  * moved the folder fonts from **app** > **public** to **build**
+  * moved the folder **fonts** from **app** > **public** to **build**
 
 
   I wish to remind that the credit of this app is not entirely mine, since this is an adaption of the original [IonicReact](http://reactionic.github.io/) Project
