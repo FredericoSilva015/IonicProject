@@ -23,6 +23,7 @@ import SideMenus from './imports/components/sidemenus.jsx';
 import Slidebox from './imports/components/slidebox.jsx';
 import Spinners from './imports/components/spinners.jsx';
 import { Tabs, TabsOne, TabsTwo, TabsThree, TabsFour } from './imports/components/tabs.jsx';
+import Fred from './imports/components/fred.jsx';
 
 var main = function () {
   var pageList = [
@@ -53,6 +54,7 @@ var main = function () {
         { path:'/tabs/four', component:TabsFour, title:'Tab 4', done:false}
       ]
     },
+    { path:'/fred', component:Fred, title:'Fred', done:true},
   ];
 
   var tabRoutes;
@@ -93,7 +95,7 @@ var main = function () {
       <Route path="*" component={NoMatch}/>
     </Route>
   );
-  
+
   ReactDOM.render(<Router history={browserHistory}>{routes}</Router>, document.getElementById('app')) ;
 };
 

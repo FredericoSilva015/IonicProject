@@ -100,7 +100,7 @@ Quick links for those interested:
 
   ### Installation ###
 
-  Please install using instructions and the indicated versions. Webpack and meteor will possibly break (using windows both broke for me with the most recent versions). To avoid this issue with this i used the pointed version on this read me, for more info [Version error](https://github.com/angular/angular-cli/issues/2234).
+  Please install using instructions and the indicated versions. Webpack and meteor will possibly break (using windows both broke for me with the most recent versions). To avoid issues, use the pointed versions, for more info [Version error](https://github.com/angular/angular-cli/issues/2234).
 
   Current file changes :
   * **app** > **client** > **app.scss** : commented import, added =>
